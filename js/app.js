@@ -15,9 +15,9 @@ var networkState;
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
-//    setTimeout(function () {
-//        navigator.splashscreen.hide();
-//    }, 3000);
+    setTimeout(function () {
+        navigator.splashscreen.hide();
+            }, 3000);
     //setStorage('device_id', 'e3kI:APA91bGNX6z6xWj6P3mD-bBsUsxqtR87Lxzmvssb6DiZ4lhmuQpF_Zkp10g5GPKD5Lam-iR7Gi_ZF75mH-siTeDxxkW6_yIdNOtu9E6A1_s7tQ90e4YovY5RxPgsOOafnLW9BjDii5yi');
     //setStorage('device_platform', 'Android');
     if (!empty(krms_config.pushNotificationSenderid)) {
@@ -455,6 +455,16 @@ function page_criminal_defence() {
         }
     };
     sNavigator.pushPage("page_criminal_defence.html", options);
+}
+function page_bld_alc_clc() {
+
+    var options = {
+        animation: 'slide',
+        onTransitionEnd: function () {
+
+        }
+    };
+    sNavigator.pushPage("page_bld_alc_clc.html", options);
 }
 function page_criminal_defense_info() {
 
