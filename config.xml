@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.siegelgullo.app"
-        version   = "0.0.1" 
+        version   = "1.0.0" 
         android-versionCode="1"
 >
 
@@ -12,7 +12,7 @@
         SIEGEL GULLO, Attorneys
     </description>
 
-    <author email="patel.kalpeshbeit2010@gmail.com" href="http://cordova.io">
+    <author email="Web@siegel-lawoffice.com" href="http://cordova.io">
         siegel-lawoffice.com
     </author>
     <allow-navigation href="http://*/*" />

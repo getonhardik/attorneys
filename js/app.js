@@ -446,6 +446,63 @@ function page_family() {
     };
     sNavigator.pushPage("page_family.html", options);
 }
+function page_paynow() {
+
+    var options = {
+        animation: 'slide',
+        onTransitionEnd: function () {
+
+        }
+    };
+        menu.setMainPage('page_paynow.html', {
+        closeMenu: true
+    });
+
+}
+function page_plan_30_day() {
+
+    var options = {
+        animation: 'slide',
+        onTransitionEnd: function () {
+
+        }
+    };
+        menu.setMainPage('page_plan_30_day.html', {
+        closeMenu: true
+    });
+
+}
+function page_plan_90_day() {
+
+    var options = {
+        animation: 'slide',
+        onTransitionEnd: function () {
+
+        }
+    };
+        menu.setMainPage('page_plan_90_day.html', {
+        closeMenu: true
+    });
+
+}
+function page_financing() {
+
+    var options = {
+        animation: 'slide',
+        onTransitionEnd: function () {
+
+        }
+    };
+        menu.setMainPage('page_financing.html', {
+        closeMenu: true
+    });
+
+}
+function payment_center() {
+    menu.setMainPage('page_payment_center.html', {
+        closeMenu: true
+    });
+}
 function page_criminal_defence() {
 
     var options = {

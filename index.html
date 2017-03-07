@@ -118,7 +118,7 @@
     <ons-icon icon="fa fa-users"></ons-icon>
     <span class="trn" data-trn-key="browse_resto">About</span>
     </ons-list-item>
-    <ons-list-item onclick="page_contact();" class="bottom-menu-item" modifier="chevron">
+    <ons-list-item onclick="payment_center();" class="bottom-menu-item" modifier="chevron">
     <ons-icon icon="fa fa-money"></ons-icon>
     <span class="trn" data-trn-key="browse_resto">Payment Center</span>
     </ons-list-item>
@@ -474,6 +474,116 @@
     </div>
     </ons-page>
 </script>
+<script type="text/ons-template" id="page_payment_center.html">
+
+    <ons-page id="page_payment_center">
+    <div id="page_mainmenu">
+    <ons-toolbar>
+    <div class="left">
+    <ons-toolbar-button onclick="menu.toggleMenu();">
+    <ons-icon icon="fa fa-bars"></ons-icon>
+    </ons-toolbar-button>
+    </div>
+    <div class="center">
+    <span id="search-text">Payment Center</span>
+    </div>
+
+    </ons-toolbar>
+
+
+    <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
+    <div class="row mainpagemargin">
+    <div class="s4 m2" onclick="page_paynow()">
+    <div class="card red darken-2" >
+    <div class="card-content center white-text">
+    <img class="ar-img-icon" src="css/images/Pay-now.png">
+    </div>
+    <div class="card-action singletextpad">
+    Payment
+    </div>
+    </div>
+    </div>
+
+    <div class="s4 m2" onclick="page_plan_30_day()">
+    <div class="card red darken-2" >
+    <div class="card-content center white-text">
+    <img class="ar-img-icon" src="css/images/30-day.png">
+    </div>
+    <div class="card-action singletextpad">
+    Plan
+    </div>
+    </div>
+
+    </div>
+
+    <div class="s4 m2" onclick="page_plan_90_day()">
+    <div class="card red darken-2">
+    <div class="card-content center white-text">
+    <img class="ar-img-icon" src="css/images/90-day.png">
+    </div>
+    <div class="card-action singletextpad">
+    Plan
+    </div>
+    </div>
+    </div>
+    <div class="s4 m2">
+    <div class="card red darken-2" onclick="page_financing()">
+    <div class="card-content center white-text">
+    <img class="ar-img-icon" src="css/images/paypal-credit.png">
+    </div>
+    <div class="card-action singletextpad">
+    Financing
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="row mainpagemargin">
+    <div class="s4 m2">
+    <div class="card-ar blue darken-2"  >
+    <a href="https://www.facebook.com/The-Law-Office-of-Harvey-F-Siegel-197141330332547/" target="_system">
+    <div class="card-content center white-text">
+    <img style="height: 30px; width: auto;" src="css/images/facebook.png">
+    </div>
+    <div style=" color: #FFF; " class="card-action singletextpad">
+    Like Us on Facebook
+    </div>
+    </a>
+    </div>
+    </div>
+    <div class="s4 m2">
+    <div class="card-ar red darken-2"  >
+    <a href="https://www.facebook.com/The-Law-Office-of-Harvey-F-Siegel-197141330332547/" target="_system">
+    <div class="card-content center white-text">
+    <img style="height: 30px; width: auto;" src="css/images/google.png">
+    </div>
+    <div style=" color: #FFF; " class="card-action singletextpad">
+    Add Us on Google Plus
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+
+
+    <ons-list class="timeline" modifier="inset">
+    <ons-list-item class="timeline-li" modifier="tappable">
+    <ons-col>
+    <div class="timeline-message">
+    THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
+    </div>
+    </ons-col>
+    </ons-list-item>
+    </ons-list>
+    </ons-scroller>
+
+    <div class="" style=" min-height:40px;   background: #d34834;">
+    <p class="ar-footer" >COPYRIGHT 2017. ALL RIGHTS RESERVED <br />Desktop View</p>
+
+    </div>
+    </div>
+    </ons-page>
+</script>
 
 <script type="text/ons-template" id="page_criminal_defence.html">
 
@@ -705,6 +815,262 @@
 
         <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
     <iframe width="100%" height="450" frameborder="0" style="border:0" src="http://scoutadvertisingllc.com/siegel-ios/Blood-alc-calc.php?from=app" allowfullscreen></iframe>
+            <div class="row mainpagemargin">
+                <div class="s4 m2">
+                    <div class="card-ar blue darken-2"  >
+                        <a href="https://www.facebook.com/The-Law-Office-of-Harvey-F-Siegel-197141330332547/" target="_system">
+                            <div class="card-content center white-text">
+                                <img style="height: 30px; width: auto;" src="css/images/facebook.png">
+                            </div>
+                            <div style=" color: #FFF; " class="card-action singletextpad">
+                                Like Us on Facebook
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="s4 m2">
+                    <div class="card-ar red darken-2"  >
+                        <a href="https://www.facebook.com/The-Law-Office-of-Harvey-F-Siegel-197141330332547/" target="_system">
+                            <div class="card-content center white-text">
+                                <img style="height: 30px; width: auto;" src="css/images/google.png">
+                            </div>
+                            <div style=" color: #FFF; " class="card-action singletextpad">
+                                Add Us on Google Plus
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <ons-list class="timeline" modifier="inset">
+                <ons-list-item class="timeline-li" modifier="tappable">
+                    <ons-col>
+                        <div class="timeline-message">
+                            THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
+                        </div>
+                    </ons-col>
+                </ons-list-item>
+            </ons-list>
+        </ons-scroller>
+
+        <div class="" style=" min-height:40px;   background: #d34834;">
+            <p class="ar-footer" >COPYRIGHT 2017. ALL RIGHTS RESERVED <br />Desktop View</p>
+
+        </div>
+        </div>
+    </ons-page>
+</script>
+<script type="text/ons-template" id="page_paynow.html">
+
+    <ons-page id="page_paynow">
+    <div id="page_mainmenu">
+        <ons-toolbar>
+            <div class="left">
+                <div class="left ar-bk-btn" onclick="menu.setMainPage('page_payment_center.html', {closeMenu: true})">
+                    <i class="fa fa-chevron-left Prog_out_lefticon prog_out-head1text-i" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="center">
+                <span id="search-text">Paynow</span>
+            </div>
+
+        </ons-toolbar>
+
+        <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
+        <iframe width="100%" height="450" frameborder="0" style="border:0" src="http://scoutadvertisingllc.com/siegel-ios/paynow.php?from=app" allowfullscreen></iframe>
+            <div class="row mainpagemargin">
+                <div class="s4 m2">
+                    <div class="card-ar blue darken-2"  >
+                        <a href="https://www.facebook.com/The-Law-Office-of-Harvey-F-Siegel-197141330332547/" target="_system">
+                            <div class="card-content center white-text">
+                                <img style="height: 30px; width: auto;" src="css/images/facebook.png">
+                            </div>
+                            <div style=" color: #FFF; " class="card-action singletextpad">
+                                Like Us on Facebook
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="s4 m2">
+                    <div class="card-ar red darken-2"  >
+                        <a href="https://www.facebook.com/The-Law-Office-of-Harvey-F-Siegel-197141330332547/" target="_system">
+                            <div class="card-content center white-text">
+                                <img style="height: 30px; width: auto;" src="css/images/google.png">
+                            </div>
+                            <div style=" color: #FFF; " class="card-action singletextpad">
+                                Add Us on Google Plus
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <ons-list class="timeline" modifier="inset">
+                <ons-list-item class="timeline-li" modifier="tappable">
+                    <ons-col>
+                        <div class="timeline-message">
+                            THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
+                        </div>
+                    </ons-col>
+                </ons-list-item>
+            </ons-list>
+        </ons-scroller>
+
+        <div class="" style=" min-height:40px;   background: #d34834;">
+            <p class="ar-footer" >COPYRIGHT 2017. ALL RIGHTS RESERVED <br />Desktop View</p>
+
+        </div>
+        </div>
+    </ons-page>
+</script>
+<script type="text/ons-template" id="page_plan_30_day.html">
+
+    <ons-page id="page_plan_30_day">
+    <div id="page_mainmenu">
+        <ons-toolbar>
+            <div class="left">
+                <div class="left ar-bk-btn" onclick="menu.setMainPage('page_payment_center.html', {closeMenu: true})">
+                    <i class="fa fa-chevron-left Prog_out_lefticon prog_out-head1text-i" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="center">
+                <span id="search-text">Plan</span>
+            </div>
+
+        </ons-toolbar>
+
+        <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
+        <iframe width="100%" height="450" frameborder="0" style="border:0" src="http://scoutadvertisingllc.com/siegel-ios/30day.php?from=app" allowfullscreen></iframe>
+            <div class="row mainpagemargin">
+                <div class="s4 m2">
+                    <div class="card-ar blue darken-2"  >
+                        <a href="https://www.facebook.com/The-Law-Office-of-Harvey-F-Siegel-197141330332547/" target="_system">
+                            <div class="card-content center white-text">
+                                <img style="height: 30px; width: auto;" src="css/images/facebook.png">
+                            </div>
+                            <div style=" color: #FFF; " class="card-action singletextpad">
+                                Like Us on Facebook
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="s4 m2">
+                    <div class="card-ar red darken-2"  >
+                        <a href="https://www.facebook.com/The-Law-Office-of-Harvey-F-Siegel-197141330332547/" target="_system">
+                            <div class="card-content center white-text">
+                                <img style="height: 30px; width: auto;" src="css/images/google.png">
+                            </div>
+                            <div style=" color: #FFF; " class="card-action singletextpad">
+                                Add Us on Google Plus
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <ons-list class="timeline" modifier="inset">
+                <ons-list-item class="timeline-li" modifier="tappable">
+                    <ons-col>
+                        <div class="timeline-message">
+                            THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
+                        </div>
+                    </ons-col>
+                </ons-list-item>
+            </ons-list>
+        </ons-scroller>
+
+        <div class="" style=" min-height:40px;   background: #d34834;">
+            <p class="ar-footer" >COPYRIGHT 2017. ALL RIGHTS RESERVED <br />Desktop View</p>
+
+        </div>
+        </div>
+    </ons-page>
+</script>
+<script type="text/ons-template" id="page_plan_90_day.html">
+
+    <ons-page id="page_plan_90_day">
+    <div id="page_mainmenu">
+        <ons-toolbar>
+            <div class="left">
+                <div class="left ar-bk-btn" onclick="menu.setMainPage('page_payment_center.html', {closeMenu: true})">
+                    <i class="fa fa-chevron-left Prog_out_lefticon prog_out-head1text-i" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="center">
+                <span id="search-text">Plan</span>
+            </div>
+
+        </ons-toolbar>
+
+        <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
+        <iframe width="100%" height="450" frameborder="0" style="border:0" src="http://scoutadvertisingllc.com/siegel-ios/90day.php?from=app" allowfullscreen></iframe>
+            <div class="row mainpagemargin">
+                <div class="s4 m2">
+                    <div class="card-ar blue darken-2"  >
+                        <a href="https://www.facebook.com/The-Law-Office-of-Harvey-F-Siegel-197141330332547/" target="_system">
+                            <div class="card-content center white-text">
+                                <img style="height: 30px; width: auto;" src="css/images/facebook.png">
+                            </div>
+                            <div style=" color: #FFF; " class="card-action singletextpad">
+                                Like Us on Facebook
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="s4 m2">
+                    <div class="card-ar red darken-2"  >
+                        <a href="https://www.facebook.com/The-Law-Office-of-Harvey-F-Siegel-197141330332547/" target="_system">
+                            <div class="card-content center white-text">
+                                <img style="height: 30px; width: auto;" src="css/images/google.png">
+                            </div>
+                            <div style=" color: #FFF; " class="card-action singletextpad">
+                                Add Us on Google Plus
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <ons-list class="timeline" modifier="inset">
+                <ons-list-item class="timeline-li" modifier="tappable">
+                    <ons-col>
+                        <div class="timeline-message">
+                            THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
+                        </div>
+                    </ons-col>
+                </ons-list-item>
+            </ons-list>
+        </ons-scroller>
+
+        <div class="" style=" min-height:40px;   background: #d34834;">
+            <p class="ar-footer" >COPYRIGHT 2017. ALL RIGHTS RESERVED <br />Desktop View</p>
+
+        </div>
+        </div>
+    </ons-page>
+</script>
+<script type="text/ons-template" id="page_financing.html">
+
+    <ons-page id="page_financing">
+    <div id="page_mainmenu">
+        <ons-toolbar>
+            <div class="left">
+                <div class="left ar-bk-btn" onclick="menu.setMainPage('page_payment_center.html', {closeMenu: true})">
+                    <i class="fa fa-chevron-left Prog_out_lefticon prog_out-head1text-i" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="center">
+                <span id="search-text">Plan</span>
+            </div>
+
+        </ons-toolbar>
+
+        <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
+        <iframe width="100%" height="450" frameborder="0" style="border:0" src="http://scoutadvertisingllc.com/siegel-ios/finance.php?from=app" allowfullscreen></iframe>
             <div class="row mainpagemargin">
                 <div class="s4 m2">
                     <div class="card-ar blue darken-2"  >
