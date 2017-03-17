@@ -513,6 +513,16 @@ function page_criminal_defence() {
     };
     sNavigator.pushPage("page_criminal_defence.html", options);
 }
+function page_financial_calc() {
+
+    var options = {
+        animation: 'slide',
+        onTransitionEnd: function () {
+
+        }
+    };
+    sNavigator.pushPage("page_financial_calc.html", options);
+}
 function page_bld_alc_clc() {
 
     var options = {
@@ -611,6 +621,24 @@ function page_child_and_sous_support() {
         }
     };
     sNavigator.pushPage("page_child_and_sous_support.html", options);
+}
+function page_child_support_calculator() {
+    var options = {
+        animation: 'slide',
+        onTransitionEnd: function () {
+
+        }
+    };
+    sNavigator.pushPage("page_child_support_calculator.html", options);
+}
+function page_spousal_calc() {
+    var options = {
+        animation: 'slide',
+        onTransitionEnd: function () {
+
+        }
+    };
+    sNavigator.pushPage("page_spousal_calc.html", options);
 }
 
 function page_child() {
