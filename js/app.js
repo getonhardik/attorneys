@@ -454,6 +454,7 @@ function page_paynow() {
 
         }
     };
+    window.location='http://scoutadvertisingllc.com/siegel-ios/paynow.php?from=app';
         menu.setMainPage('page_paynow.html', {
         closeMenu: true
     });
@@ -467,6 +468,7 @@ function page_plan_30_day() {
 
         }
     };
+        window.location='http://scoutadvertisingllc.com/siegel-ios/30day.php?from=app';
         menu.setMainPage('page_plan_30_day.html', {
         closeMenu: true
     });
@@ -480,6 +482,7 @@ function page_plan_90_day() {
 
         }
     };
+    window.location='http://scoutadvertisingllc.com/siegel-ios/90day.php?from=app';
         menu.setMainPage('page_plan_90_day.html', {
         closeMenu: true
     });
@@ -493,6 +496,7 @@ function page_financing() {
 
         }
     };
+    window.location='http://scoutadvertisingllc.com/siegel-ios/finance.php?from=app';
         menu.setMainPage('page_financing.html', {
         closeMenu: true
     });
