@@ -118,10 +118,12 @@
     <ons-icon icon="fa fa-users"></ons-icon>
     <span class="trn" data-trn-key="browse_resto">About</span>
     </ons-list-item>
+<!--
     <ons-list-item onclick="payment_center();" class="bottom-menu-item" modifier="chevron">
     <ons-icon icon="fa fa-money"></ons-icon>
     <span class="trn" data-trn-key="browse_resto">Payment Center</span>
     </ons-list-item>
+-->    
     <ons-list-item onclick="page_contact();" class="bottom-menu-item" modifier="chevron">
     <ons-icon icon="fa fa-envelope"></ons-icon>
     <span class="trn" data-trn-key="browse_resto">Contact</span>
@@ -153,53 +155,35 @@
 
     <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
     <div class="row mainpagemargin">
-    <div class="s4 m2" onclick="personal_inquiry();">
-    <div class="card red darken-2" >
-    <div class="card-content center white-text">
-    <img class="ar-img-icon" src="css/images/injury.png">
-    </div>
-    <div class="card-action singletextpad">
-    Personal Injury
-    </div>
-    </div>
+    <div class="col 6" style='text-align:center' onclick="personal_inquiry();">
+    <img class="ar-img-icon" src="css/images/injury.png"><br>
+    <span style="color:#d34834">Personal Injury</span>
     </div>
 
-    <div class="s4 m2" onclick="page_family();">
-    <div class="card red darken-2" >
-    <div class="card-content center white-text">
+    <div class="col 6" onclick="page_family();" style='text-align:center'>
     <img class="ar-img-icon" src="css/images/family.png">
-    </div>
-    <div class="card-action singletextpad">
-    Family Law
-    </div>
+    <br>
+    <span style="color:#d34834">Family Law</span>
     </div>
     </div>
-
-    <div class="s4 m2" onclick="page_criminal_defence();">
-    <div class="card red darken-2" >
-    <div class="card-content center white-text">
+    <div class="row mainpagemargin">
+    <div class="col 6" onclick="page_criminal_defence();" style='text-align:center'>
     <img class="ar-img-icon" src="css/images/handcuff.png">
+    <br>
+    <span style="color:#d34834">Criminal  Defense</span> 
     </div>
-    <div class="card-action singletextpad">
-    Criminal  Defense 
-    </div>
-    </div>
-    </div>
-    <div class="s4 m2" onclick="page_DWI_Defense();">
-    <div class="card red darken-2" >
-    <div class="card-content center white-text">
+    
+    <div class="col 6" onclick="page_DWI_Defense();" style='text-align:center'>
     <img class="ar-img-icon" src="css/images/dwi.png">
+    <br>
+    <span style="color:#d34834">D.W.I. Defense</span>
     </div>
-    <div class="card-action singletextpad">
-    D.W.I. Defense
-    </div>
-    </div>
-    </div>
+    
     </div>
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     SIEGEL GULLO, Attorneys in Buffalo, NY provides client legal services in the practice areas of Personal Injury, Criminal Defense, D.W.I. Defense and Family Law including Divorce.
     </div>
     </ons-col>
@@ -237,7 +221,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -270,52 +254,37 @@
 
     <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
     <div class="row mainpagemargin">
-    <div class="s4 m2" >
+    
+    <div class="col 6" style='text-align:center'>
     <a href="tel:911">
-    <div class="card red darken-2" >
-    <div class="card-content center white-text">
     <img class="ar-img-icon" src="css/images/call-911-icon.png">
-    </div>
-    <div class="card-action singletextpad">
-    Call 911
-    </div>
-    </div>
+    <br>
+    <span style="color:#d34834">Call 911</span>
     </a>
     </div>
 
-    <div class="s4 m2">
+    <div class="col 6" style='text-align:center'>
     <a href="https://www.google.com/webhp?&ion=1&espv=2&ie=UTF-8#q=hospital" target="_system">
-    <div class="card red darken-2" >
-    <div class="card-content center white-text">
     <img class="ar-img-icon" src="css/images/call-hospital-icon.png">
-    </div>
-    <div class="card-action singletextpad">
-    Find a Hospital
-    </div>
-    </div>
+    <br>
+    <span style="color:#d34834">Find a Hospital</span>
     </a>
     </div>
-
-    <div class="s4 m2">
-    <div class="card red darken-2" onclick="inquire_acc()">
-    <div class="card-content center white-text">
+    </div>
+    
+    <div class="row mainpagemargin">
+    <div class="col 6" style='text-align:center' onclick="inquire_acc()">
     <img class="ar-img-icon" src="css/images/handcuff.png">
+    <br>
+    <span style="color:#d34834">Injury Accident</span>
     </div>
-    <div class="card-action singletextpad">
-    Injury Accident
-    </div>
-    </div>
-    </div>
-    <div class="s4 m2">
-    <div class="card red darken-2" onclick="inquire_acc()">
-    <div class="card-content center white-text">
+    
+    <div class="col 6" style='text-align:center'  onclick="inquire_acc()">
     <img class="ar-img-icon" src="css/images/dwi.png">
+    <br>
+    <span style="color:#d34834">Auto Accident</span>
     </div>
-    <div class="card-action singletextpad">
-    Auto Accident
-    </div>
-    </div>
-    </div>
+    
     </div>
 
     <div class="row mainpagemargin">
@@ -349,7 +318,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -383,48 +352,33 @@
 
     <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
     <div class="row mainpagemargin">
-    <div class="s4 m2" onclick="page_divorce()">
-    <div class="card red darken-2" >
-    <div class="card-content center white-text">
+    
+    <div class="col 6" style='text-align:center' onclick="page_divorce()">
     <img class="ar-img-icon" src="css/images/family4.png">
-    </div>
-    <div class="card-action singletextpad">
-    Divorce
-    </div>
-    </div>
+    <br>
+    <span style="color:#d34834">Divorce</span>
     </div>
 
-    <div class="s4 m2" onclick="page_custody()">
-    <div class="card red darken-2" >
-    <div class="card-content center white-text">
+    <div class="col 6" style='text-align:center' onclick="page_custody()">
     <img class="ar-img-icon" src="css/images/family4.png">
-    </div>
-    <div class="card-action singletextpad">
-    Custody
-    </div>
+    <br>
+    <span style="color:#d34834">Custody</span>
     </div>
 
     </div>
+    <div class="row mainpagemargin">
 
-    <div class="s4 m2" onclick="page_child_and_sous_support()">
-    <div class="card red darken-2">
-    <div class="card-content center white-text">
+    <div class="col 6" style='text-align:center' onclick="page_child_and_sous_support()">
     <img class="ar-img-icon" src="css/images/spousal-mait-pic.png">
+    <br>
+    <span style="color:#d34834">Child & Spousal Support</span> 
     </div>
-    <div class="card-action singletextpad">
-    Child & Spousal Support 
-    </div>
-    </div>
-    </div>
-    <div class="s4 m2">
-    <div class="card red darken-2" onclick="page_financial_calc()">
-    <div class="card-content center white-text">
+    
+    
+    <div class="col 6" style='text-align:center' onclick="page_financial_calc()">
     <img class="ar-img-icon" src="css/images/calc.png">
-    </div>
-    <div class="card-action singletextpad">
-    Finacial Calculators
-    </div>
-    </div>
+    <br>
+    <span style="color:#d34834">Finacial Calculators</span>
     </div>
     </div>
 
@@ -459,7 +413,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -569,7 +523,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -603,37 +557,25 @@
 
         <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
             <div class="row mainpagemargin">
-                <div class="s4 m2" onclick="page_criminal_defense_info()">
-                        <div class="card red darken-2" >
-                            <div class="card-content center white-text">
+                <div class="col 6" style='text-align:center' onclick="page_criminal_defense_info()">
                                 <img class="ar-img-icon" src="css/images/gavel.png">
-                            </div>
-                            <div class="card-action singletextpad">
-                                Criminal Defense Infromation
-                            </div>
-                        </div>
+                            <br>
+                                <span style="color:#d34834">Criminal Defense Infromation</span>
                 </div>
 
-                <div class="s4 m2" onclick="page_know_your_rights()">
-                        <div class="card red darken-2" >
-                            <div class="card-content center white-text">
+                <div class="col 6" style='text-align:center' onclick="page_know_your_rights()">
                                 <img class="ar-img-icon" src="css/images/police-man.png">
-                            </div>
-                            <div class="card-action singletextpad">
-                                Know Your Rights
-                            </div>
+                            <br>
+                                <span style="color:#d34834">Know Your Rights</span>
                         </div>
                   
                 </div>
+            <div class="row mainpagemargin">
 
-                <div class="s4 m2" onclick="page_being_arrested()">
-                    <div class="card red darken-2">
-                        <div class="card-content center white-text">
+                <div class="" style='text-align:center;margin-left:6px' onclick="page_being_arrested()">
                             <img class="ar-img-icon" src="css/images/handcuff.png">
-                        </div>
-                        <div class="card-action singletextpad">
-                            i am Being Arrested 
-                        </div>
+                        <br>
+                            <span style="color:#d34834">i am Being Arrested</span> 
                     </div>
                 </div>
 
@@ -670,7 +612,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -703,50 +645,32 @@
 
         <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
             <div class="row mainpagemargin">
-                <div class="s4 m2" onclick="page_DWI_info()">
-                        <div class="card red darken-2" >
-                            <div class="card-content center white-text">
+                <div class="col 6" style='text-align:center' onclick="page_DWI_info()">
                                 <img class="ar-img-icon" src="css/images/dwi.png">
-                            </div>
-                            <div class="card-action singletextpad">
-                                D.W.I Information 
-                            </div>
-                        </div>
+                            <br>
+                            <span style="color:#d34834">D.W.I Information </span>
                 </div>
 
-                <div class="s4 m2" onclick="page_arrested()">
-                        <div class="card red darken-2" >
-                            <div class="card-content center white-text">
+                <div class="col 6" style='text-align:center' onclick="page_arrested()">
                                 <img class="ar-img-icon" src="css/images/handcuff.png">
-                            </div>
-                            <div class="card-action singletextpad">
-                                I'm Being Arrested
-                            </div>
+                            <br>
+                            <span style="color:#d34834">I'm Being Arrested</span>
                         </div>
                   
                 </div>
+            <div class="row mainpagemargin">
 
-                <div class="s4 m2" onclick="page_bld_alc_clc()">
-                    <div class="card red darken-2">
-                        <div class="card-content center white-text">
+                <div class="col 6" style='text-align:center' onclick="page_bld_alc_clc()">
                             <img class="ar-img-icon" src="css/images/calc.png">
-                        </div>
-                        <div class="card-action singletextpad">
-                            Blood Alcohol Calculator 
-                        </div>
-                    </div>
+                        <br>
+                        <span style="color:#d34834">Blood Alcohol Calculator </span>
                 </div>
-                <div class="s4 m2" onclick="page_being_arrested()">
-                    <div class="card red darken-2">
+                <div class="col 6" style='text-align:center' onclick="page_being_arrested()">
                         <a href="https://www.google.com/search?q=taxi" target="_blank">
-                            <div class="card-content center white-text">
                                 <img class="ar-img-icon" src="css/images/taxi.png">
-                            </div>
-                            <div class="card-action singletextpad">
-                                Call a Cab
-                            </div>
+                            <br>
+                                <span style="color:#d34834">Call a Cab</span>
                         </a>
-                    </div>
                 </div>
 
             </div>
@@ -782,7 +706,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -815,25 +739,16 @@
 
         <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
             <div class="row mainpagemargin">
-                <div class="s4 m2" onclick="page_child_support_calculator()">
-                        <div class="card red darken-2" >
-                            <div class="card-content center white-text">
+                <div class="col 6" style='text-align:center' onclick="page_child_support_calculator()">
                                 <img class="ar-img-icon" src="css/images/calc.png">
-                            </div>
-                            <div class="card-action singletextpad">
-                                Child Support Calculator
-                            </div>
-                        </div>
+                            <br>
+                                <span style="color:#d34834">Child Support Calculator</span>
                 </div>
 
-                <div class="s4 m2" onclick="page_spousal_calc()">
-                        <div class="card red darken-2" >
-                            <div class="card-content center white-text">
+                <div class="col 6" style='text-align:center' onclick="page_spousal_calc()">
                                 <img class="ar-img-icon" src="css/images/calc.png">
-                            </div>
-                            <div class="card-action singletextpad" style='font-size:15px'>
-                                Spousal Maintenance Calculator
-                            </div>
+                            <br>
+                                <span style="color:#d34834">Spousal Maintenance Calculator</span>
                         </div>
                   
                 </div>
@@ -872,7 +787,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -936,7 +851,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -1000,7 +915,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -1064,7 +979,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -1128,7 +1043,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -1192,7 +1107,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -1225,8 +1140,8 @@
 
         <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
             <div class="row mainpagemargin">
-                <div class="center-text">
-                  <a href="sms:+1?body=I am being arrested, please contact my attorney at (716) 883-4800."><img src="css/images/handcuff.png" alt="img" class="center-icon"><strong>I'm Being Arrested</strong></a>
+                <div style="text-align:center">
+                  <a href="sms:+1?body=I am being arrested, please contact my attorney at (716) 883-4800."><img src="css/images/handcuff.png" alt="img" class="center-icon" style="width:50%"><br><strong><span style="color:#d34834">I'm Being Arrested</span></strong></a>
                 </div>
             </div>
 
@@ -1261,7 +1176,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -1335,7 +1250,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -1442,7 +1357,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -1641,7 +1556,7 @@
             <ons-list class="timeline" modifier="inset">
                 <ons-list-item class="timeline-li" modifier="tappable">
                     <ons-col>
-                        <div class="timeline-message">
+                        <div class="timeline-message" style="padding:10px;text-align:justify">
                             THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
                         </div>
                     </ons-col>
@@ -1674,46 +1589,32 @@
 
     <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
     <div class="row mainpagemargin">
-    <div class="s4 m2" onclick="page_child()">
-    <div class="card red darken-2" >
-    <div class="card-content center white-text">
+    
+    <div class="col 6" style='text-align:center' onclick="page_child()">
     <img class="ar-img-icon" src="css/images/family2.png">
-    </div>
-    <div class="card-action singletextpad">
-    Child Support
-    </div>
-    </div>
+    <br>
+    <span style="color:#d34834">Child Support</span>
     </div>
 
-    <div class="s4 m2" onclick="page_spousal()">
-    <div class="card red darken-2" >
-    <div class="card-content center white-text">
+    <div class="col 6" style='text-align:center' onclick="page_spousal()">
     <img class="ar-img-icon" src="css/images/family3.png">
-    </div>
-    <div class="card-action singletextpad">
-    Spousal Maintenance 
-    </div>
+    <br>
+    <span style="color:#d34834">Spousal Maintenance</span> 
     </div>
     </div>
-    <div class="s4 m2" onclick="page_child_support_calculator()">
-    <div class="card red darken-2">
-    <div class="card-content center white-text">
+    
+    
+    <div class="row mainpagemargin">
+    <div class="col 6" style='text-align:center' onclick="page_child_support_calculator()">
     <img class="ar-img-icon" src="css/images/calc.png">
+    <br>
+    <span style="color:#d34834">Child Support Calculator</span>
     </div>
-    <div class="card-action singletextpad">
-    Child Support Calculator
-    </div>
-    </div>
-    </div>
-    <div class="s4 m2">
-    <div class="card red darken-2" onclick="page_spousal_calc()">
-    <div class="card-content center white-text">
+    
+    <div class="col 6" style='text-align:center' onclick="page_spousal_calc()">
     <img class="ar-img-icon" src="css/images/calc.png">
-    </div>
-    <div class="card-action singletextpad" style="font-size:15px">
-    Spousal Maintenance Calculator
-    </div>
-    </div>
+    <br>
+    <span style="color:#d34834">Spousal Maintenance Calculator</span>
     </div>
     </div>
 
@@ -1748,7 +1649,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -1809,7 +1710,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -1868,7 +1769,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -1902,59 +1803,45 @@
 
     <ons-scroller style="height: 100%; width: 100%;" class="scrollerpad">
     <div class="row mainpagemargin">
-    <div class="s4 m2">
-    <div class="card red darken-2">
+    <div class="col 6" style='text-align:center'>
     <a href="tel:+17168834800">
-    <div class="card-content center white-text">
     <img class="ar-img-icon" src="css/images/Call.png">
-    </div>
-    <div class="card-action singletextpad">
-    Call Our Office
-    </div>
+    <br>
+    <span style="color:#d34834">Call Our Office</span>
     </a>
     </div>
-    </div>
 
-    <div class="s4 m2">
-    <div class="card red darken-2" >
+    <div class="col 6" style='text-align:center'>
     <a href="sms:17166505991">
-    <div class="card-content center white-text">
     <img class="ar-img-icon" src="css/images/Text.png">
-    </div>
-    <div class="card-action singletextpad">
-    Text an Attorney
-    </div>
+    <br>
+    <span style="color:#d34834">Text an Attorney</span>
     </a>
     </div>
     </div>
+    
+    <div class="row mainpagemargin">
 
-    <div class="s4 m2">
-    <div class="card red darken-2" >
+    <div class="col 6" style='text-align:center'>
     <a href="mailto:web@siegel-lawoffice.com">
-    <div class="card-content center white-text">
     <img class="ar-img-icon" src="css/images/Email.png">
-    </div>
-    <div class="card-action singletextpad">
-    Email Us 
-    </div>
+    <br>
+    <span style="color:#d34834">Email Us</span> 
     </a>
     </div>
-    </div>
-    <div class="s4 m2">
-    <div class="card red darken-2" onclick="page_contact_map();">
-    <div class="card-content center white-text">
+    
+    <div class="col 6" style='text-align:center'>
+    <a href='https://www.google.com/maps/dir//88+W+Utica+St,+Buffalo,+NY+14209/@42.9111067,-78.8717263,702m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89d312f034b7e5d3:0x3a307bb12268080c!2m2!1d-78.8694142!2d42.9111028?hl=en-US' targer="_system">
     <img class="ar-img-icon" src="css/images/Map.png">
-    </div>
-    <div class="card-action singletextpad">
-    Directions
-    </div>
-    </div>
+    <br>
+    <span style="color:#d34834">Directions</span>
+    </a>
     </div>
     </div>
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     SIEGEL GULLO, Attorneys in Buffalo, NY provides client legal services in the practice areas of Personal Injury, Criminal Defense, D.W.I. Defense and Family Law including Divorce.
     </div>
     </ons-col>
@@ -2008,7 +1895,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -2017,7 +1904,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -2083,7 +1970,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -2119,25 +2006,15 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
-    SIEGEL GULLO, Attorneys in Buffalo, NY provides clients legal services in the practice areas of Personal Injury Law, Criminal Law, DWI Defense and Family Law including Divorce.
-    Since 1997, SIEGEL GULLO, Attorneys has worked hard to achieve victories and obtain successful outcomes for our clients. Our team provides legal services in the practice areas of Personal Injury Law,  Criminal and DWI Defense, and Domestic Relations Matters, such as Divorce and Family Law. Our emphasis is always on the interests of our clients – not on our own.
-    At SIEGEL GULLO, Attorneys, we believe that our success in achieving great outcomes for our clients is a result of our dedication,  strong work ethic, and  respect—for the law, the legal profession and, especially for our clients.  SIEGEL GULLO, Attorneys has become well known in the Western New York Legal Community for our integrity, performance and achievements. 
-    The attorneys and staff at SIEGEL GULLO, Attorneys are pleased to have enjoyed the trust and business relationships that we have maintained with our longstanding clients. We are proud to zealously advocate for our existing clients and we always welcome the opportunity to be of service to new clients. We encourage you to contact our office today to discuss how we can be of service to you with your Personal Injury , Criminal and DWI Defense  or Domestic Relations Matters.
+    <div class="timeline-message" style="padding:10px;text-align:justify">
+        <p>SIEGEL GULLO, Attorneys in Buffalo, NY provides clients legal services in the practice areas of Personal Injury Law, Criminal Law, DWI Defense and Family Law including Divorce. </p>
+        <p>Since 1997, SIEGEL GULLO, Attorneys has worked hard to achieve victories and obtain successful outcomes for our clients. Our team provides legal services in the practice areas of&nbsp;Personal Injury Law, &nbsp;Criminal and DWI Defense, and&nbsp;Domestic Relations Matters, such as Divorce and Family Law. Our emphasis is always on the interests of our clients – not on our own.</p>
+        <p>At SIEGEL GULLO, Attorneys, we believe that our success in achieving great outcomes for our clients is a result of our dedication,&nbsp; strong work ethic, and&nbsp; respect—for the law, the legal profession and, especially for our clients.&nbsp; SIEGEL GULLO, Attorneys has become well known in the Western New York Legal Community for our integrity, performance and achievements.&nbsp;</p>
+        <p>The attorneys and staff at SIEGEL GULLO, Attorneys are pleased to have enjoyed the trust and business relationships that we have maintained with our longstanding clients. We are proud to zealously advocate for our existing clients and we always welcome the opportunity to be of service to new clients. We encourage you to&nbsp;contact our office&nbsp;today&nbsp;to discuss how we can be of service to you with your&nbsp;Personal Injury&nbsp;,&nbsp;Criminal&nbsp;and&nbsp;DWI Defense&nbsp; or&nbsp;Domestic Relations Matters.</p>
     </div>
     </ons-col>
     </ons-list-item>
     </ons-list>
-    <ons-list class="timeline" modifier="inset">
-    <ons-list-item class="timeline-li" modifier="tappable">
-    <ons-col>
-    <div class="timeline-message">
-    SIEGEL GULLO, Attorneys in Buffalo, NY provides client legal services in the practice areas of Personal Injury, Criminal Defense, D.W.I. Defense and Family Law including Divorce.
-    </div>
-    </ons-col>
-    </ons-list-item>
-    </ons-list>
-
     <div class="row mainpagemargin">
     <div class="s4 m2">
     <div class="card-ar blue darken-2"  >
@@ -2169,7 +2046,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -2203,17 +2080,17 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     <h4>Divorce</h4>
-    In New York, marriage can only be altered or dissolved by the New York State Supreme Court. To get divorced you must specify grounds(reasons) for divorce.
-    Grounds are valid reasons, which must exist and be proven to the Supreme Court’s satisfaction. Without grounds, the Court does not have the power to grant a divorce, even if both parties want to be divorced.
+    <p>In New York, marriage can only be altered or dissolved by the New York State Supreme Court. To get divorced you must specify grounds(reasons) for divorce.</p>
+    <p>Grounds are valid reasons, which must exist and be proven to the Supreme Court’s satisfaction. Without grounds, the Court does not have the power to grant a divorce, even if both parties want to be divorced.</p>
     </div>
     </ons-col>
     </ons-list-item>
 
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     <h4>Grounds for Divorce </h4>
     1. Cruel and inhuman treatment of one party by the other,<br />
     2. Abandonment for one or more years,<br />
@@ -2231,7 +2108,7 @@
 
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     <h4>Conversion Divorce </h4>
     A conversion divorce, involves converting a separation into a divorce. Parties who are legally separated are required to file for divorce, should they wish to no longer be married. To qualify for this type of divorce, the following conditions must be met by the plaintiff.
     1. The parties have been legally separated for one year or more, and,<br />
@@ -2242,7 +2119,7 @@
 
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     <h4>Irretrievable Breakdown </h4>
     Using irretrievable breakdown as ground allows one spouse to unilaterally end the marriage. To qualify for this type of divorce, the following conditions must be met by the Plaintiff:
     <br />
@@ -2254,7 +2131,7 @@
     </ons-list-item>
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     <h4>Equitable Distribution </h4>
     The Equitable Distribution Law (EDL) covers all issues concerning the<br />
     1. Determination or division of assets,,<br />
@@ -2268,7 +2145,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     SIEGEL GULLO, Attorneys in Buffalo, NY provides client legal services in the practice areas of Personal Injury, Criminal Defense, D.W.I. Defense and Family Law including Divorce.
     </div>
     </ons-col>
@@ -2306,7 +2183,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -2337,16 +2214,17 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
-    In child custody matters, the Court determines custody based on what it believes to be the best interests of the children. This aspect can be the most complicated and controversial component of a divorce in New York. Sometimes children become a bartering tool and their well-being gets lost in the game of tug-of-war.
-    When the parents disagree about issues of child custody, the New York Court will often appoint an attorney for the child who will advocate for the child’s wishes or, if the child is too young to express themselves, advocate for that which the attorney believes to be in the child's best interest regarding child custody and an appropriate visitation schedule. Contact an attorney now.
+    <div class="timeline-message" style="padding:10px;text-align:justify">
+    <p>In child custody matters, the Court determines custody based on what it believes to be the best interests of the children. This aspect can be the most complicated and controversial component of a divorce in New York. Sometimes children become a bartering tool and their well-being gets lost in the game of tug-of-war.</p>
+    <p>When the parents disagree about issues of child custody, the New York Court will often appoint an attorney for the child who will advocate for the child’s wishes or, if the child is too young to express themselves, advocate for that which the attorney believes to be in the child's best interest regarding child custody and an appropriate visitation schedule.<br>
+    <a style="color:red" href='javascript:;' onclick="page_contact();"><u>Contact an attorney</u></a> now.</p>
     </div>
     </ons-col>
     </ons-list-item>
 
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     <h4>Sole Custody </h4>
     If the parents are not awarded joint custody, one parent will have sole custody of the children. Sole custody means that a parent has the authority to make legal decisions for the children. The non-custodial parent is awarded specific visitation with the children.
     </div>
@@ -2355,7 +2233,7 @@
 
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     <h4>Joint Custody</h4>
     In joint custody, both parents have legal custody with one parent designated as the primary residential parent. Joint legal custody means that both parents have the right to make major decisions for their children. These decisions include residence of the child, medical and dental treatment, education, child care, religious education, extra-curricular activities, summer camp and recreation
     </div>
@@ -2364,7 +2242,7 @@
 
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     <h4>Joint-Shared Custody </h4>
     In joint-shared custody, both parents share legal custody with each parent having specific periods of responsibility with the children. This arrangement gives both parents the right to make major decisions on an equal basis for their children.
     </div>
@@ -2374,7 +2252,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     SIEGEL GULLO, Attorneys in Buffalo, NY provides client legal services in the practice areas of Personal Injury, Criminal Defense, D.W.I. Defense and Family Law including Divorce.
     </div>
     </ons-col>
@@ -2412,7 +2290,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -2443,9 +2321,9 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
-    The basic child support obligation to be paid by the non-custodial/non-residential parent is based upon a percentage of the combined parental income, less FICA.  For one child the amount is 17%, for two children 25%, for three children 29%, and for four children 31%. In addition to the basic child support obligation, the non-custodial, non-residential parent may have to pay for a portion health care expenses and of the child care expenses related to the other parent’s employment or employment related education.
-    Parents may avoid the use of the percentages in determining the amount of child support by executing an agreement setting forth the amount of child support which they believe to be fair. An agreement determining the amount of child support must satisfy certain technical provisions of the Child Support Standards Act.
+    <div class="timeline-message" style="padding:10px;text-align:justify">
+    <p>The basic child support obligation to be paid by the non-custodial/non-residential parent is based upon a percentage of the combined parental income, less FICA.  For one child the amount is 17%, for two children 25%, for three children 29%, and for four children 31%. In addition to the basic child support obligation, the non-custodial, non-residential parent may have to pay for a portion health care expenses and of the child care expenses related to the other parent’s employment or employment related education.</p>
+    <p>Parents may avoid the use of the percentages in determining the amount of child support by executing an agreement setting forth the amount of child support which they believe to be fair. An agreement determining the amount of child support must satisfy certain technical provisions of the Child Support Standards Act.</p>
     </div>
     </ons-col>
     </ons-list-item>
@@ -2453,7 +2331,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     SIEGEL GULLO, Attorneys in Buffalo, NY provides client legal services in the practice areas of Personal Injury, Criminal Defense, D.W.I. Defense and Family Law including Divorce.
     </div>
     </ons-col>
@@ -2491,7 +2369,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -2522,11 +2400,11 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
-    Spousal Maintenance may be awarded to one spouse, payable by the other spouse.<br />
-    Temporary Maintenance that is to be paid while the action of divorce is pending in cases where there exists a substantial disparity in the incomes of the parties.<br />
-    Post-Divorce Spousal maintenance is paid after the conclusion of the parties’ divorce. Post-divorce spousal maintenance is based upon factors set forth in the EDL, may be for a limited or indefinite time period. It may be waived by agreement, under certain circumstances.<br />
-    In calculating spousal maintenance, the Court will consider serveral factors, such as prior standard of living of the parties, present and future earning capacity of the parties, and ability of the party seeking spousal maintenance to become self-supporting.<br />
+    <div class="timeline-message" style="padding:10px;text-align:justify">
+    <p>Spousal Maintenance may be awarded to one spouse, payable by the other spouse.</p>
+    <p>Temporary Maintenance that is to be paid while the action of divorce is pending in cases where there exists a substantial disparity in the incomes of the parties.</p>
+    <p>Post-Divorce Spousal maintenance is paid after the conclusion of the parties’ divorce. Post-divorce spousal maintenance is based upon factors set forth in the EDL, may be for a limited or indefinite time period. It may be waived by agreement, under certain circumstances.</p>
+    <p>In calculating spousal maintenance, the Court will consider serveral factors, such as prior standard of living of the parties, present and future earning capacity of the parties, and ability of the party seeking spousal maintenance to become self-supporting.</p>
     </div>
     </ons-col>
     </ons-list-item>
@@ -2563,7 +2441,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
@@ -2623,7 +2501,7 @@
     <ons-list class="timeline" modifier="inset">
     <ons-list-item class="timeline-li" modifier="tappable">
     <ons-col>
-    <div class="timeline-message">
+    <div class="timeline-message" style="padding:10px;text-align:justify">
     THE INFORMATION OBTAINED FROM THIS WEBSITE IS NOT INTENDED AS A SUBSTITUTION FOR LEGAL COUNSEL. CONSULT WITH AN ATTORNEY REGARDING YOUR CASE. STOCK PHOTOS ARE USED.
     </div>
     </ons-col>
