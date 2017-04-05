@@ -311,3 +311,100 @@
 }
 
 
+@media screen and (min-width: 768px){
+    .social_media_hr{
+        margin-left: 12%;
+    }
+    .ar-img-icon{
+        height:90%;
+    }
+    .mainpagemargin {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    .timeline-message{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 30px !important;
+    }
+    .singletextpad{
+        font-size:25px;
+        margin-top: 12px !important;
+    }
+    .timeline{
+        margin-top: 50px !important;
+    }
+    .card-ar{
+        padding:20px !important;
+        height: 95px !important;
+    }
+    .ar-img-icon_hp{
+        height: 70% !important;
+    }
+    .navigation-bar__center{
+        font-size: 35px !important;
+        padding:10px !important;
+    }
+    .navigation-bar{
+        min-height: 60px !important;
+    }
+    .toolbar-button {
+        font-size: 29px !important; 
+    }
+    .ar-bk-btn {
+        font-size: 29px !important; 
+    }
+    .ar-footer{
+        font-size: 29px !important;
+    }
+    .mainpagemargin_hp{
+        margin: 12% 12% 12% 4% !important;
+    }
+    .hp-img-icon{
+        height: 110% !important;
+    }
+    .mainpagemargin_arrested{
+        margin-left: 25px;
+    }
+    .law_defence_hp{
+        padding:10px 10px 10px 40px !important;
+    }
+    .menu_hp{
+        font-size: 30px !important;
+    }
+    .trn{
+        font-size: 30px !important;
+    }
+    .profile-name{
+        font-size: 30px !important;
+    }
+    .profile-id{
+        font-size: 30px !important;
+    }
+    .profile-desc{
+        font-size: 30px !important;
+    }
+    .maps_hp{
+        width:762px;
+        height: 300px !important;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 414px){
+    .maps_hp{
+        width:410px;
+        height: 170px !important;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 375px){
+    .maps_hp{
+        width:370px;
+        height: 170px !important;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 320px){
+    .maps_hp{
+        width:316px;
+        height: 170px !important;
+    }
+}
