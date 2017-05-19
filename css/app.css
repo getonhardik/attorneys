@@ -1239,3 +1239,11 @@ font-size:15px;
     background: #cfcfcf;
     color: #000;
 	}
+        
+        .icon-home{
+            width: 70px;
+            margin-left: 5%;
+        }        
+        .text-home{
+            margin-left: 40px;
+        }
