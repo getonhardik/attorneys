@@ -408,6 +408,19 @@ function about_page() {
         closeMenu: true
     });
 }
+function about_page1() {
+    $( "#toggle_about" ).toggleClass( "hide" )
+}
+function about_hs_page() {
+    menu.setMainPage('page_hs_about.html', {
+        closeMenu: true
+    });
+}
+function about_mg_page() {
+    menu.setMainPage('page_mg_about.html', {
+        closeMenu: true
+    });
+}
 
 
 function page_contact() {
